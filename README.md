@@ -24,14 +24,10 @@
   <p align="center">
     Recreating Netflix's browse page using React, React Router, React Context with log in authentication from Firebase.
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/sitthiph/netflix-clone/tree/main/src"><strong>Explore the Repo »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/">View Demo via Netlify</a>
   </p>
 </div>
 
