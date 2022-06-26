@@ -23,7 +23,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Netflix Clone</h3>
+<h3 align="center">[Netflix Clone](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)</h3>
 
   <p align="center">
     Recreating Netflix's browse page using React, React Router, React Context with log in authentication from Firebase.
