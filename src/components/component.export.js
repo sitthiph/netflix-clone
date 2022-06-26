@@ -8,3 +8,4 @@ export { default as Footer } from './footer/footer.component';
 export { default as Header } from './header/header.component';
 export { default as Profiles } from './profiles/profiles.component';
 export { default as Loading } from './loading/loading.component';
+export { default as Player } from './player/player.component';
