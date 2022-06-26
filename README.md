@@ -46,13 +46,13 @@ This application (a Netflix clone) was built using React (Custom Hooks, Context)
 I used compound components design pattern to build my components, and there's over 10 examples as to how these are used. The styling is all handled via styled components.
 
 Homepage
-![[Netflix Clone Homepage][homepage-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
+[![Netflix Clone Homepage][homepage-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
 Sign-in page
-![[Netflix Clone Homepage][sign-in-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
+[![Netflix Clone Homepage][sign-in-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
 Browse Page
-![[Netflix Clone Homepage][browse-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
+[![Netflix Clone Homepage][browse-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
 Browse Page with Search(Fuse.js) being use to filter out shows.
-![[Netflix Clone Homepage][browse-search-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
+[![Netflix Clone Homepage][browse-search-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
