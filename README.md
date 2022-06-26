@@ -19,11 +19,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-<h3 align="center">[Netflix Clone](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)</h3>
+<h3 align="center">Netflix Clone</h3>
 
   <p align="center">
     Recreating Netflix's browse page using React, React Router, React Context with log in authentication from Firebase.
@@ -39,39 +35,24 @@
   </p>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
-[![Product Name Screen Shot][homepage-src]](https://example.com)
+[![Netflix Clone Homepage][homepage-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+This application (a Netflix clone) was built using React (Custom Hooks, Context), Firebase & Styled Components. I have built the following pages within this application: sign in, sign up, browse & lastly the homepage. There are four different pages, some using protected routes with auth listeners (try /browse while not logged in). Firebase firestore handles all the data and that data is retrieved using a custom hook; authentication is used on all pages, which is handled by Firebase as well. User session is also saved via localStorage, user can leave the site, come back, and still be logged in. The films and Series are sorted with the help of Fuse.js.
+
+I used compound components design pattern to build my components, and there's over 10 examples as to how these are used. The styling is all handled via styled components.
+
+Homepage
+![Netflix Clone Homepage][homepage-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
+Sign-in page
+![Netflix Clone Homepage][sign-in-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
+Browse Page
+![Netflix Clone Homepage][browse-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
+Browse Page with Search(Fuse.js) being use to filter out shows.
+![Netflix Clone Homepage][browse-search-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -115,21 +96,6 @@ const firebaseConfig = {
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-This application (a Netflix clone) was built using React (Custom Hooks, Context), Firebase & Styled Components. I have built the following pages within this application: sign in, sign up, browse & lastly the homepage. There are four different pages, some using protected routes with auth listeners (try /browse while not logged in). Firebase firestore handles all the data and that data is retrieved using a custom hook; authentication is used on all pages, which is handled by Firebase as well. User session is also saved via localStorage, user can leave the site, come back, and still be logged in. The films and Series are sorted with the help of Fuse.js.
-
-I used compound components design pattern to build my components, and there's over 10 examples as to how these are used. The styling is all handled via styled components.
-
-Homepage
-Sign-in page
-Browse Page
-Browse Page with Search(Fuse.js) being use to filter out shows.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- ACKNOWLEDGMENTS -->
 
 ## Acknowledgments
@@ -153,7 +119,7 @@ Browse Page with Search(Fuse.js) being use to filter out shows.
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[homepage-src]: md-img/Netflix-home.png
-[sign-in-src]: md-img/Netflix-sign-in.png
-[browse-src]: md-img/Netflix-browse.png
-[browse-search-src]: md-img/Netflix-browse-search.png
+[homepage-src]: md-img/Netflix-home.jpeg
+[sign-in-src]: md-img/Netflix-sign-in.jpeg
+[browse-src]: md-img/Netflix-browse.jpeg
+[browse-search-src]: md-img/Netflix-browse-search.jpeg
