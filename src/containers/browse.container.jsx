@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { SelectProfileContainer } from "./profiles.containers";
 import { FirebaseContext } from "../context/firebase.context";
-import { Header, Loading, Card } from "../components/component.export";
+import { Card, Header, Loading, Player } from "../components/component.export";
 import logo from '../logo.svg';
 import * as ROUTES from "../env/routes";
 
@@ -84,6 +84,10 @@ export function BrowseContainer({ slides }) {
                 ))}
               </Card.Entities>
               <Card.Feature category={category}>
+                <Player>
+                  <Player.Button />
+                  <Player.Video src="/videos/bunny.mp4" />
+                </Player>
               </Card.Feature>
             </Card>
           ))}
@@ -92,4 +96,4 @@ export function BrowseContainer({ slides }) {
     ) : (
       <SelectProfileContainer user={user} setProfile={setProfile} />
     );
-  };
+  }
